@@ -71,6 +71,15 @@ main {
   height: clamp(8rem, 5rem + 10vw, 10.8rem);
 }
 
+#toggle-mode {
+  position: absolute;
+  right: 3.2rem;
+  top: 3.2rem;
+  font-size: 3.2rem;
+  line-height: 0;
+  color: var(--text-color);
+}
+
 footer {
   align-self: end;
   justify-self: end;
